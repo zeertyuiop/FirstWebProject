@@ -1,0 +1,85 @@
+body {
+    background-color: black;
+}
+header, section#profile, section#activities, footer {
+    background-color: white;
+    width: 800px;
+    margin: auto;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header, section#profile, section#activities {
+    background-color: white;
+    border-bottom: 2px solid indianred;
+}
+header img {
+    width: 145px;
+    float: left;
+}
+header h1 {
+    float: left;
+    font-size: 55px;
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-bottom: 25px;
+    border-bottom: 2px solid black ;
+}
+section#profile h1, section#activities h1 {
+    text-align: center;
+    font-size: 32px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+#profile-content {
+    width: 700px;
+    margin: auto;
+}
+#profile-content img {
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 16px;
+}
+#profile-content #description-text {
+    width: 465px;
+    float: left;
+}
+#profile-content #description-text p{
+    text-align: justify;
+}
+.item-activity img, .item-activity p {
+    width: 500px;
+    display: block;
+    margin: auto;
+
+}
+.item-activity img {
+    margin-bottom: 20px;
+}
+.item-activity {
+    width: 700px;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+footer {
+    background-color: white;
+}
+footer a {
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    background-color: green;
+    width: 300PX;
+    margin: auto;
+    padding: 10px;
+}
+footer a:hover{
+    background-color: red;
+}
+.fix-container {
+    clear: both;
+}
